@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --text: #0d0416;
+  --background: #faf7fd;
+  --primary: #3232ff;
+  --secondary: #1e914e;
+  --accent: #e354bf;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background);
+}
+
+nav {
+  box-shadow: 0px 0px 1px black;
+}
+
+#togger {
+  border: none;
+}
+
+#btn {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+}
+
+#btn-sec {
+  background-color: var(--secondary);
+  color: white;
+  font-weight: 600;
+}
+.offcanvas-body ul li a {
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.offcanvas-body ul li {
+  padding-right: 30px;
+}
+
+.offcanvas-body ul li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.582);
+  border-radius: 5%;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-label {
+  color: var(--primary);
+  font-size: smaller;
+}
+
+.text-hero-bold {
+  font-weight: 900;
+  font-size: 3rem;
+  padding-bottom: 15px;
+}
+
+.text-hero-regular {
+  font-weight: 400;
+  font-size: 1.2em;
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+
+#about .container .row h3 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#about .container .row p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#about {
+  min-height: 88vh;
+}
+
+#services .container .row h3 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .text-label {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  #services .container #row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card {
+  transition: 0.5s;
+  background-color: var(--primary);
+  margin: 5px;
+}
+
+.card:hover {
+  background-color: var(--primary);
+}
+
+#row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing .container .row .col-12 {
+    flex-wrap: wrap;
+}
+
+
+footer {
+    box-shadow: 0px 0px 1px black;
+
+}
+
+.pricing .container .row h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contact .container .row h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
