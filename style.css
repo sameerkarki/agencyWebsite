@@ -91,7 +91,7 @@ nav {
 }
 
 #about {
-  min-height: 100vh;
+  min-height: 96vh;
 }
 
 #services .container .row h3 {
@@ -130,6 +130,9 @@ nav {
     display: none;
   }
 
+  #about {
+    padding-top: 30px;
+  }
 
 
 }
