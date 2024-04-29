@@ -74,11 +74,16 @@ nav {
   opacity: 0.6;
   padding-bottom: 15px;
 }
+#about .container .row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
 
 #about .container .row h3 {
   font-size: 40px;
   font-weight: 900;
 }
+
 
 #about .container .row p {
   font-size: 20px;
@@ -120,6 +125,11 @@ nav {
     justify-content: center;
     align-items: center;
   }
+
+  #about .container .row img {
+    display: none;
+  }
+
 
 
 }
