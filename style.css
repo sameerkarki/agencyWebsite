@@ -106,6 +106,7 @@ nav {
     display: none;
   }
 
+
   .container {
     display: flex;
     justify-content: center;
@@ -119,6 +120,8 @@ nav {
     justify-content: center;
     align-items: center;
   }
+
+
 }
 
 .card {
@@ -167,4 +170,10 @@ footer {
 .contact .container .row h3 {
     font-size: 40px;
     font-weight: 900;
+}
+
+#hero .container .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+
 }
